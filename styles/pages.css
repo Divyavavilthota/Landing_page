@@ -107,7 +107,7 @@ body {
     opacity: 0px;
     position: absolute;
     object-fit: cover;
-    bottom: -550px;
+    bottom: -610px;
 }
 
 .eleven {
@@ -115,14 +115,14 @@ body {
     height: 88px;
     left: 150px;
     position: absolute;
-    bottom: 250px;
+    bottom: 200px;
     gap: 0px;
     opacity: 1;
 }
 
 .ten {
     position: absolute;
-    bottom: -1000px;
+    bottom: -1040px;
     left: 0;
     height: 400px;
     opacity: 1;
