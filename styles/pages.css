@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add container style */
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-wrapper {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.one {
+    width: 1864px;
+    height: 71px;
+    left: 16px;
+}
+
+.two {
+    position: absolute;
+    width: 100%;
+    max-width: 1880px;
+    height: 1120px;
+    top: 80px;
+    left: 32px;
+}
+
+.three {
+    position: absolute;
+    width: 1464px;
+    height: 586px;
+    top: 800px;
+    left: 220px;
+    right: 200px;
+    padding-right: 100px;
+    border-radius: 80px;
+}
+
+.four {
+    position: absolute;
+    width: 612px;
+    height: 266.64px;
+    left: 220px;
+    top: calc(800px + 586px + 50px);
+    gap: 0px;
+}
+
+.five {
+    position: absolute;
+    width: 1560px;
+    height: 593.28px;
+    left: 164px;
+    top: calc(800px + 586px + 50px);
+    gap: 0px;
+    opacity: 1;
+}
+
+.six {
+    position: absolute;
+    width: 390px;
+    height: 502px;
+    left: 108px;
+    top: calc(800px + 586px + 50px + 593.28px + 20px + 120px);
+    gap: 0px;
+    opacity: 1;
+}
+
+.seven {
+    position: absolute;
+    width: 414px;
+    height: 216px;
+    left: 108px;
+    top: calc(800px + 586px + 50px + 593.28px + 20px + 502px + 20px + 120px);
+    gap: 0px;
+    opacity: 1;
+}
+
+.eight {
+    position: absolute;
+    width: 1138px;
+    height: 722px;
+    left: calc(108px + 390px + 20px);
+    top: calc(800px + 586px + 50px + 593.28px + 20px + 120px);
+    gap: 0px;
+    opacity: 1;
+}
+
+.nine {
+    width: 400.66px;
+    height: 502.22px;
+    left: 1300px;
+    gap: 20px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+    position: absolute;
+    object-fit: cover;
+    bottom: -550px;
+}
+
+.eleven {
+    width: 1470px;
+    height: 88px;
+    left: 150px;
+    position: absolute;
+    bottom: 250px;
+    gap: 0px;
+    opacity: 1;
+}
+
+.ten {
+    position: absolute;
+    bottom: -1000px;
+    left: 0;
+    height: 400px;
+    opacity: 1;
+    width: 1864px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+        width: 100%;
+        height: auto;
+    }
+
+    .two {
+        height: auto;
+    }
+    
+    .nine {
+        width: 100%;
+        height: 300px;
+        bottom: 0;
+    }
+}
